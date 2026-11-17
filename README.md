@@ -8,6 +8,8 @@ Use it as a design-review gate, a pull-request template, or a pre-launch review.
 
 ## How to use it
 
+Want only the tick boxes? Copy [CHECKLIST.md](CHECKLIST.md).
+
 1. Copy the checklist into a design doc or launch ticket.
 2. Tick an item only after you ran its test and kept the evidence (a ticket, a log line, a screenshot).
 3. Sections 1 to 4 are blockers for launch. Sections 5 and 6 are hardening.
@@ -99,7 +101,7 @@ Retrieved 2026-11-17.
 - [MCP security checklist](https://github.com/sunilgentyala/mcp-security-checklist)
 - [Post-quantum cryptography migration checklist](https://github.com/sunilgentyala/pqc-migration-checklist)
 
-Found a wrong or untestable item? Open an issue or pull request. Each item must be a yes/no question with a test, and each new claim needs a primary source.
+Found a wrong or untestable item? Use the issue forms or open a pull request (a template guides you). Each item must be a yes/no question with a test, and each new claim needs a primary source.
 
 ## License
 

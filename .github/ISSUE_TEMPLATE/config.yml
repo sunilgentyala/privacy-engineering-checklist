@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Read the README first
+    url: https://github.com/sunilgentyala/privacy-engineering-checklist#readme
+    about: Items, tests, sources and what was not verified are listed there.

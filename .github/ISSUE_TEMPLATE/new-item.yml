@@ -1,0 +1,46 @@
+name: Propose a new checklist item
+description: Suggest a testable yes/no item for the privacy engineering checklist.
+title: "New item: "
+labels: ["new-item"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Every item must be a yes/no question with a test and a primary source. Items that cannot be tested will be closed.
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: Which README section does it belong to?
+    validations:
+      required: true
+  - type: textarea
+    id: item
+    attributes:
+      label: Item (a yes/no question)
+      placeholder: "The server rejects a token issued for a different audience with HTTP 401."
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: How to test it
+      description: A command, request or short procedure a reviewer can run. If you ran it, paste the real output.
+    validations:
+      required: true
+  - type: textarea
+    id: basis
+    attributes:
+      label: Primary source
+      description: "Which article, clause or guideline paragraph does it rest on? Link the primary document, not a blog summary."
+    validations:
+      required: true
+  - type: checkboxes
+    id: verified
+    attributes:
+      label: Checks
+      options:
+        - label: I read the primary source myself.
+          required: true
+        - label: I did not use em dashes.
+          required: true

@@ -1,0 +1,24 @@
+name: Report a wrong or outdated item
+description: A fact, ID, date or link in the privacy engineering checklist is wrong or has changed.
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Item number or section
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Primary source for the correction
+      description: Link and, if useful, a short paraphrase. Do not paste long quotes.
+    validations:
+      required: true
