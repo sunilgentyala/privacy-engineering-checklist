@@ -1,10 +1,27 @@
+<p align="center"><img src="docs/banner.png" alt="Privacy Engineering Checklist: 23 testable yes/no items" width="100%"></p>
+
 # Privacy Engineering Checklist
+
+[![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE) [![Items](https://img.shields.io/badge/checklist_items-23-blue.svg)](CHECKLIST.md) [![Last verified](https://img.shields.io/badge/last_verified-2026--11--17-brightgreen.svg)](#what-was-not-verified) [![GDPR](https://img.shields.io/badge/GDPR-engineering_aid-informational.svg)](#verified-references) [![checks](https://github.com/sunilgentyala/privacy-engineering-checklist/actions/workflows/checks.yml/badge.svg)](https://github.com/sunilgentyala/privacy-engineering-checklist/actions/workflows/checks.yml)
 
 A testable yes/no checklist for engineers and reviewers who build systems that process personal data. Every item names a quick test and the source it rests on.
 
 Use it as a design-review gate, a pull-request template, or a pre-launch review.
 
 > Last verified: 2026-11-17. This is an engineering review aid, **not legal advice**. GDPR is the anchor because its clauses are short and testable. See [What was not verified](#what-was-not-verified), especially the note on how GDPR text was read.
+
+## Contents
+
+- [1. Data minimization and defaults](#1-data-minimization-and-defaults) (5 items)
+- [2. Retention and deletion](#2-retention-and-deletion) (4 items)
+- [3. Data subject rights](#3-data-subject-rights) (4 items)
+- [4. Risk assessment, records and processors](#4-risk-assessment-records-and-processors) (4 items)
+- [5. Security of processing and breach handling](#5-security-of-processing-and-breach-handling) (5 items)
+- [6. Privacy-enhancing technologies (PETs)](#6-privacy-enhancing-technologies-pets) (1 items)
+- [Scoring](#scoring)
+- [Verified references](#verified-references)
+- [What was not verified](#what-was-not-verified)
+- [Related checklists](#related-checklists)
 
 ## How to use it
 

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this checklist, please cite it as below."
+title: "Privacy engineering checklist"
+abstract: "Testable yes/no checklist for privacy engineering: minimization, retention, data subject rights, DPIA, security of processing."
+type: software
+authors:
+  - family-names: Gentyala
+    given-names: Sunil
+    orcid: "https://orcid.org/0009-0005-2642-3479"
+version: "1.0.0"
+date-released: "2026-11-17"
+license: MIT
+repository-code: "https://github.com/sunilgentyala/privacy-engineering-checklist"
+url: "https://github.com/sunilgentyala/privacy-engineering-checklist"
