@@ -8,7 +8,7 @@ A testable yes/no checklist for engineers and reviewers who build systems that p
 
 Use it as a design-review gate, a pull-request template, or a pre-launch review.
 
-> Last verified: 2026-11-17. This is an engineering review aid, **not legal advice**. GDPR is the anchor because its clauses are short and testable. See [What was not verified](#what-was-not-verified), especially the note on how GDPR text was read.
+> Last verified: 2026-11-17. This is an engineering review aid, **not legal advice**. GDPR is the anchor because its clauses are short and testable. GDPR wording was checked against EUR-Lex. See [What was not verified](#what-was-not-verified) for what was not.
 
 ## Contents
 
@@ -94,6 +94,7 @@ Retrieved 2026-11-17.
 
 | Fact | Source |
 | --- | --- |
+| GDPR, Regulation (EU) 2016/679, official text. Arts. 5, 12, 17, 25, 28, 30, 32, 33, 34, 35 checked (27 phrases plus clause structure) | [EUR-Lex](https://eur-lex.europa.eu/eli/reg/2016/679/oj) |
 | EDPB Guidelines 4/2019 on Art. 25: v1.0 adopted 13 Nov 2019, v2.0 adopted 20 Oct 2020 | [EDPB v2.0 PDF](https://www.edpb.europa.eu/sites/default/files/files/file1/edpb_guidelines_201904_dataprotection_by_design_and_by_default_v2.0_en.pdf) |
 | EDPB Guidelines 01/2025 on pseudonymisation, adopted 16 Jan 2025, version for public consultation | [EDPB PDF](https://www.edpb.europa.eu/system/files/2025-01/edpb_guidelines_202501_pseudonymisation_en.pdf) |
 | NIST Privacy Framework 1.0, 16 Jan 2020, Functions Identify-P, Govern-P, Control-P, Communicate-P, Protect-P | [NIST CSWP 01162020](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01162020.pdf) |
@@ -106,7 +107,7 @@ Retrieved 2026-11-17.
 
 ## What was not verified
 
-- **GDPR wording was read on the [gdpr-info.eu](https://gdpr-info.eu/) mirror, not EUR-Lex**, because EUR-Lex blocked automated access. Article numbers and meaning are cited. Confirm any quote against [EUR-Lex (CELEX:32016R0679)](https://eur-lex.europa.eu/eli/reg/2016/679/oj) before relying on it.
+- **GDPR was checked against the official text on [EUR-Lex (CELEX:32016R0679)](https://eur-lex.europa.eu/eli/reg/2016/679/oj) on 2026-11-17.** 27 phrases the checklist relies on were found in the correct articles (Arts. 5, 12, 17, 25, 28, 30, 32, 33, 34, 35), and the clause structure was confirmed (Art. 28(3)(a) to (h), Art. 35(7)(a) to (d)). The bodies of Arts. 15 to 22 were not read in full: only the Art. 17 title was checked, and the items that cite those rights rest on Art. 12(3).
 - **ISO standards** (ISO 31700-1:2023, ISO/IEC 27701:2025, ISO/IEC 29100:2024) are not used as sources for any item. iso.org was not readable, and only identifiers and edition years are known.
 - **NIST Privacy Framework 1.1** is a draft as of the retrieval date, so no item relies on its subcategory IDs.
 - **California regulation text** (CCPA regulations on opt-out signals) was not read directly. Only the Attorney General FAQ was.
